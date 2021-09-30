@@ -1,3 +1,5 @@
+package Lesson_4.BASIC_HW4.Task2;
+
 public class DOCHandler extends AbstractHandler {
 
     @Override

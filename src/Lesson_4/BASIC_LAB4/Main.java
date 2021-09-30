@@ -1,3 +1,5 @@
+package Lesson_4.BASIC_LAB4;
+
 import java.util.Scanner;
 
 public class Main {

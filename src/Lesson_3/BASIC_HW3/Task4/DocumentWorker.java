@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task4;
+
 public class DocumentWorker {
     void openDocument() {
         System.out.println("Документ открыт");

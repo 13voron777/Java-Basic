@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task4;
+
 public class ProDocumentWorker extends DocumentWorker {
     void editDocument() {
         System.out.println("Документ отредактирован");
