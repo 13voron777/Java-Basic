@@ -1,3 +1,5 @@
+package Lesson_5.BASIC_HW5.Task2;
+
 import java.util.ArrayList;
 
 public class Zoo {

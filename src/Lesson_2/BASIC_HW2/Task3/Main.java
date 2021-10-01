@@ -1,4 +1,4 @@
-package HW3;
+package Lesson_2.BASIC_HW2.Task3;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HW4;
+package Lesson_2.BASIC_HW2.Task4;
 
 public class Car {
     String color;

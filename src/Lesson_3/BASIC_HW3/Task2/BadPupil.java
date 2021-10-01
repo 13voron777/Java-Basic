@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task2;
+
 public class BadPupil implements Pupil {
     @Override
     public void study() {

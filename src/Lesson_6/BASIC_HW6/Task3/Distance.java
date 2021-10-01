@@ -1,3 +1,5 @@
+package Lesson_6.BASIC_HW6.Task3;
+
 public class Distance {
     public double distance;
 

@@ -1,4 +1,4 @@
-package LAB2;
+package Lesson_2.BASIC_LAB2;
 
 public class MyArea {
     public static final double PI = 3.14;

@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task3;
+
 public class Ship extends Vehicle {
     int height;
     String port;

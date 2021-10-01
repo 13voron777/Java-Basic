@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task2;
+
 import java.util.Arrays;
 
 public class ClassRoom {
@@ -27,11 +29,11 @@ public class ClassRoom {
     @Override
     public String toString() {
         System.out.println(this.getClass().getSimpleName());
-        for (int i = 0; i < pupils.length; i++) {
-            pupils[i].study();
-            pupils[i].read();
-            pupils[i].write();
-            pupils[i].relax();
+        for (Pupil pupil : pupils) {
+            pupil.study();
+            pupil.read();
+            pupil.write();
+            pupil.relax();
             System.out.println();
         }
         return "";

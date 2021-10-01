@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task2;
+
 public class ExcelentPupil implements Pupil {
     @Override
     public void study() {

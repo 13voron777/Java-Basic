@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task3;
+
 public class Vehicle {
     int x;
     int y;

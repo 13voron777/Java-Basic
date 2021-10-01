@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList teachers = new ArrayList<>(Arrays.asList("English", "Mathematics",
+        ArrayList<String> teachers = new ArrayList<>(Arrays.asList("English", "Mathematics",
                 "Fizra", "Physics", "Biology"));
         System.out.print("Список учителей: ");
         for (Object teacher : teachers) {

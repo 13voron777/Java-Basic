@@ -1,3 +1,5 @@
+package Lesson_3.BASIC_HW3.Task2;
+
 public class Main {
     public static void main(String[] args) {
         ClassRoom classRoom1 = new ClassRoom(new ExcelentPupil(), new GoodPupil());
