@@ -55,4 +55,14 @@ public class Address {
     public int getApartment() {
         return apartment;
     }
+
+    public void showAddress() {
+        System.out.println("Method showAddress:");
+        System.out.println("Country: " + this.getCountry());
+        System.out.println("City: " + this.getCity());
+        System.out.println("Street: " + this.getStreet());
+        System.out.println("Index: " + this.getIndex());
+        System.out.println("House: " + this.getHouse());
+        System.out.println("Apartment: " + this.getApartment());
+    }
 }

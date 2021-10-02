@@ -15,5 +15,7 @@ public class Run {
         System.out.println("Index: " + address.getIndex());
         System.out.println("House: " + address.getHouse());
         System.out.println("Apartment: " + address.getApartment());
+        System.out.println();
+        address.showAddress();
     }
 }
