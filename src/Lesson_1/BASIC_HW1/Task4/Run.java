@@ -7,6 +7,7 @@ public class Run {
             computers[i] = new Computer();
         }
 
+        System.out.println("Computers:");
         for (Computer computer : computers) {
             System.out.println(computer);
         }
