@@ -7,11 +7,13 @@ public class Run {
         Scanner scanner = new Scanner(System.in);
         Rectangle rectangle = new Rectangle();
         System.out.print("Введите длину прямоугольника: ");
-        rectangle.side1 = scanner.nextDouble();
+        rectangle.setSide1(scanner.nextDouble());
         System.out.print("Введите ширину прямоугольника: ");
-        rectangle.side2 = scanner.nextDouble();
+        rectangle.setSide2(scanner.nextDouble());
 
-        System.out.println("Периметр прямоугольника: " + rectangle.perimeterCalculator(rectangle.side1, rectangle.side2));
-        System.out.println("Площадь прямоугольника: " + rectangle.areaCalculator(rectangle.side1, rectangle.side2));
+        System.out.println("Периметр прямоугольника: "
+                + rectangle.perimeterCalculator(rectangle.getSide1(), rectangle.getSide2()));
+        System.out.println("Площадь прямоугольника: "
+                + rectangle.areaCalculator(rectangle.getSide1(), rectangle.getSide2()));
     }
 }
