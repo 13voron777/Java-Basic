@@ -1,12 +1,12 @@
 package Lesson_1.BASIC_LAB1;
 
 public class Address {
-    String country;
-    String city;
-    String street;
-    String index;
-    int house;
-    int apartment;
+    private String country;
+    private String city;
+    private String street;
+    private String index;
+    private int house;
+    private int apartment;
 
     public void setCountry(String country) {
         this.country = country;
