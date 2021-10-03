@@ -1,9 +1,7 @@
 package Lesson_3.BASIC_HW3.Task2;
 
-import java.util.Arrays;
-
 public class ClassRoom {
-    Pupil[] pupils = new Pupil[4];
+    private Pupil[] pupils = new Pupil[4];
 
     public ClassRoom(Pupil pupil1, Pupil pupil2) {
         this.pupils[0] = pupil1;
@@ -29,7 +27,7 @@ public class ClassRoom {
     @Override
     public String toString() {
         System.out.println(this.getClass().getSimpleName());
-        for (Pupil pupil : pupils) {
+        for (Pupil pupil : this.pupils) {
             pupil.study();
             pupil.read();
             pupil.write();

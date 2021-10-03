@@ -1,10 +1,10 @@
 package Lesson_2.BASIC_HW2.Task4;
 
 public class Car {
-    String color;
-    int age;
-    int weight;
-    double speed;
+    private String color;
+    private int age;
+    private int weight;
+    private double speed;
 
     public Car() {
     }

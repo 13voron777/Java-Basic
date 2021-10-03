@@ -1,8 +1,8 @@
 package Lesson_2.BASIC_HW2.Task2;
 
 public class Car {
-    String color;
-    int age;
+    private String color;
+    private int age;
 
     public Car() {
     }
@@ -14,5 +14,21 @@ public class Car {
     public Car(String color, int age) {
         this.color = color;
         this.age = age;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getAge() {
+        return age;
     }
 }
