@@ -28,7 +28,7 @@ public class Run {
                     throw new Exception();
             }
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("Неверный знак арифметической операции!");
         }
     }
 }

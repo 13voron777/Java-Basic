@@ -28,7 +28,7 @@ public class Calculator {
             }
             System.out.println(a + " / " + b + " = " + (a / b));
         } catch (ArithmeticException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Делить на 0 нельзя!");
         }
     }
 }
