@@ -52,4 +52,20 @@ public class Car {
         this.age = age;
         this.weight = weight;
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public double getSpeed() {
+        return speed;
+    }
 }

@@ -6,8 +6,8 @@ public class Main {
         Car car2 = new Car("Blue");
         Car car3 = new Car("Aquamarine", 3);
 
-        System.out.println("Car1: " + car1.getColor() + " " + car1.getAge());
-        System.out.println("Car2: " + car2.getColor() + " " + car2.getAge());
-        System.out.println("Car3: " + car3.getColor() + " " + car3.getAge());
+        System.out.println("Car1: Color: " + car1.getColor() + "\t Age: " + car1.getAge());
+        System.out.println("Car2: Color: " + car2.getColor() + "\t Age: " + car2.getAge());
+        System.out.println("Car3: Color: " + car3.getColor() + "\t Age: " + car3.getAge());
     }
 }

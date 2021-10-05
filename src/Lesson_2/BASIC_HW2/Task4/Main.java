@@ -11,5 +11,11 @@ public class Main {
         Car car7 = new Car("Silver", 2, 300);
         Car car8 = new Car("Black", 4, 2500, 200.0);
         Car car9 = new Car("Red", 250.0, 4, 2400);
+
+        Car[] cars = new Car[]{car1, car2, car3, car4, car5, car6, car7, car8, car9};
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println("Car" + (i + 1) + ": Color: " + cars[i].getColor() + "\t Speed: " + cars[i].getSpeed()
+                    + "\t Age: " + cars[i].getAge() + "\t Weight: " + cars[i].getWeight());
+        }
     }
 }
