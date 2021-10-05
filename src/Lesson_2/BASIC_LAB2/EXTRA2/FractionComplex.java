@@ -30,23 +30,67 @@ public class FractionComplex {
         return counter;
     }
 
-    /*public FractionComplex sum(FractionComplex fraction) {
-    counter++;
-        return new FractionComplex();
+    public FractionComplex sum(FractionComplex fraction) {
+        counter++;
+        int resNumerator;
+        int resDenominator;
+        if (this.denominator > fraction.denominator) {
+            if (this.denominator % fraction.denominator == 0) {
+                resDenominator = this.denominator;
+                resNumerator = this.numerator + fraction.numerator * (this.denominator / fraction.denominator);
+            } else {
+                resDenominator = this.denominator * fraction.denominator;
+                resNumerator = this.numerator * fraction.denominator + fraction.numerator * this.denominator;
+            }
+        } else if (this.denominator < fraction.denominator) {
+            if (fraction.denominator % this.denominator == 0) {
+                resDenominator = fraction.denominator;
+                resNumerator = fraction.numerator + this.numerator * (fraction.denominator / this.denominator);
+            } else {
+                resDenominator = this.denominator * fraction.denominator;
+                resNumerator = this.numerator * fraction.denominator + fraction.numerator * this.denominator;
+            }
+        } else {
+            resDenominator = this.denominator;
+            resNumerator = this.numerator + fraction.numerator;
+        }
+        return new FractionComplex(resNumerator, resDenominator);
     }
 
     public FractionComplex diff(FractionComplex fraction) {
-    counter++;
-        return new FractionComplex();
-    }*/
+        counter++;
+        int resNumerator;
+        int resDenominator;
+        if (this.denominator > fraction.denominator) {
+            if (this.denominator % fraction.denominator == 0) {
+                resDenominator = this.denominator;
+                resNumerator = this.numerator - fraction.numerator * (this.denominator / fraction.denominator);
+            } else {
+                resDenominator = this.denominator * fraction.denominator;
+                resNumerator = this.numerator * fraction.denominator - fraction.numerator * this.denominator;
+            }
+        } else if (this.denominator < fraction.denominator) {
+            if (fraction.denominator % this.denominator == 0) {
+                resDenominator = fraction.denominator;
+                resNumerator = this.numerator * (fraction.denominator / this.denominator) - fraction.numerator;
+            } else {
+                resDenominator = this.denominator * fraction.denominator;
+                resNumerator = this.numerator * fraction.denominator - fraction.numerator * this.denominator;
+            }
+        } else {
+            resDenominator = this.denominator;
+            resNumerator = this.numerator - fraction.numerator;
+        }
+        return new FractionComplex(resNumerator, resDenominator);
+    }
 
     public FractionComplex mul(FractionComplex fraction) {
         counter++;
-        return new FractionComplex(this.numerator * fraction.numerator, this.denominator * this.denominator);
+        return new FractionComplex(this.numerator * fraction.numerator, this.denominator * fraction.denominator);
     }
 
-    /*public FractionComplex div(FractionComplex fraction) {
-    counter++;
-        return new FractionComplex();
-    }*/
+    public FractionComplex div(FractionComplex fraction) {
+        counter++;
+        return new FractionComplex(this.numerator * fraction.denominator, this.denominator * fraction.numerator);
+    }
 }
