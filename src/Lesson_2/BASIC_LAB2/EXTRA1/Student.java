@@ -5,10 +5,12 @@ public class Student {
     private String birth_date;
     private String contactNum;
     private int groupNum;
+    private static int counter;
 
     public Student(String fio, String birth_date) {
         this.fio = fio;
         this.birth_date = birth_date;
+        counter++;
     }
 
     public Student(String fio, String birth_date, String contactNum, int groupNum) {
@@ -47,6 +49,10 @@ public class Student {
 
     public int getGroupNum() {
         return groupNum;
+    }
+
+    public static int getCounter() {
+        return counter;
     }
 
     @Override
