@@ -9,4 +9,9 @@ public class Ship extends Vehicle {
         this.height = height;
         this.port = port;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " " + this.height + " " + this.port;
+    }
 }

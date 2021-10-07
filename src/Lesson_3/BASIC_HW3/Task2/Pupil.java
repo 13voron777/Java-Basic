@@ -1,11 +1,11 @@
 package Lesson_3.BASIC_HW3.Task2;
 
-public interface Pupil {
-    void study();
+public abstract class Pupil {
+    abstract void study();
 
-    void read();
+    abstract void read();
 
-    void write();
+    abstract void write();
 
-    void relax();
+    abstract void relax();
 }

@@ -9,4 +9,9 @@ public class Plane extends Vehicle {
         this.height = height;
         this.countPas = countPas;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " " + this.height + " " + this.countPas;
+    }
 }

@@ -1,6 +1,6 @@
 package Lesson_3.BASIC_HW3.Task2;
 
-public class GoodPupil implements Pupil {
+public class GoodPupil extends Pupil {
     @Override
     public void study() {
         System.out.println("Good study");
