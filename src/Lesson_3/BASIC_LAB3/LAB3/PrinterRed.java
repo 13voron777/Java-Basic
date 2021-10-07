@@ -1,4 +1,4 @@
-package Lesson_3.BASIC_LAB3;
+package Lesson_3.BASIC_LAB3.LAB3;
 
 public class PrinterRed extends Printer {
     @Override
