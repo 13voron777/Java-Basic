@@ -1,4 +1,4 @@
-package Lesson_4.BASIC_LAB4;
+package Lesson_4.BASIC_LAB4.FROM_PDF;
 
 import java.util.Scanner;
 
