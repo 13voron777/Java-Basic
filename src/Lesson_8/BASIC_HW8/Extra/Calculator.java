@@ -1,4 +1,4 @@
-package Lesson_8.BASIC_LAB8;
+package Lesson_8.BASIC_HW8.Extra;
 
 public class Calculator {
     private double a;

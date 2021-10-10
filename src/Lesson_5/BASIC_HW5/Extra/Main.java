@@ -1,4 +1,4 @@
-package Lesson_5.BASIC_LAB5;
+package Lesson_5.BASIC_HW5.Extra;
 
 import java.util.ArrayList;
 import java.util.Arrays;

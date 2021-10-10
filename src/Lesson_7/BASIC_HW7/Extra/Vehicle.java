@@ -1,4 +1,4 @@
-package Lesson_7.BASIC_LAB7;
+package Lesson_7.BASIC_HW7.Extra;
 
 public enum Vehicle {
     VEHICLE() {
