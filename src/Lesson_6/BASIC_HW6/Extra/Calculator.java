@@ -9,5 +9,23 @@ public class Calculator {
         this.b = b;
     }
 
+    public double sum() {
+        return a + b;
+    }
 
+    public double diff() {
+        return a - b;
+    }
+
+    public double mult() {
+        return a * b;
+    }
+
+    public double div() {
+        return a / b;
+    }
+
+    public double mod() {
+        return a % b;
+    }
 }
