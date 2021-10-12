@@ -29,8 +29,7 @@ public class Run {
                     while (!bool2) {
                         System.out.print("Введите 0 для удаления по индексу и " +
                                 "1 для удаления по объекту: ");
-                        int choose = scanner.nextInt();
-                        switch (choose) {
+                        switch (scanner.nextInt()) {
                             case 0:
                                 list.remove(scanner.nextInt());
                                 bool2 = true;
