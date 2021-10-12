@@ -8,6 +8,7 @@ public class Run {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
         boolean bool = false;
+
         while (true) {
             int elem = scanner.nextInt();
             if (elem == -1) {
