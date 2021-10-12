@@ -1,4 +1,4 @@
-package Lesson_8.BASIC_HW8.Extra;
+package Lesson_8.BASIC_LAB8.Extra;
 
 import java.util.Scanner;
 
