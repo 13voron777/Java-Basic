@@ -44,10 +44,7 @@ public class Run {
                     }
                     break;
                 case 3:
-                    for (Integer num : list) {
-                        System.out.print(num + " ");
-                    }
-                    System.out.println();
+                    System.out.println(list);
                     break;
                 case 4:
                     if (list.contains(scanner.nextInt())) {
