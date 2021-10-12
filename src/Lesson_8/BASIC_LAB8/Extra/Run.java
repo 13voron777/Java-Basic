@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Run {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        double b = scanner.nextDouble();
-
         try {
+            double a = scanner.nextDouble();
+            double b = scanner.nextDouble();
             String sign = scanner.next();
             Calculator calculator = new Calculator(a, b);
             switch (sign) {
@@ -25,10 +24,12 @@ public class Run {
                     calculator.div(a, b);
                     break;
                 default:
-                    throw new Exception();
+                    throw new ArithmeticException();
             }
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             System.out.println("Неверный знак арифметической операции!");
+        } catch (Exception e) {
+            System.out.println("Неверный ввод!");
         }
     }
 }
