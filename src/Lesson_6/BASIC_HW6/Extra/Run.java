@@ -8,5 +8,12 @@ public class Run {
         System.out.println("Произведение: " + calculator.mult());
         System.out.println("Деление: " + calculator.div());
         System.out.println("Остаток от деления: " + calculator.mod());
+        System.out.println();
+
+        System.out.println("Static Сумма: " + StaticCalculator.sum(10, 6));
+        System.out.println("Static Разность: " + StaticCalculator.diff(10, 6));
+        System.out.println("Static Произведение: " + StaticCalculator.mult(10, 6));
+        System.out.println("Static Деление: " + StaticCalculator.div(10, 6));
+        System.out.println("Static Остаток от деления: " + StaticCalculator.mod(10, 6));
     }
 }
