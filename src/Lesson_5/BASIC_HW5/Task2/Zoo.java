@@ -13,10 +13,6 @@ public class Zoo {
         animals.add(1, "Duck");
         animals.add(3, "Chicken");
         animals.add(5, "Goose");
-        System.out.println("Список животных:");
-        for (String animal : animals) {
-            System.out.print(animal + " ");
-        }
-        System.out.println();
+        System.out.println("Список животных: " + animals);
     }
 }

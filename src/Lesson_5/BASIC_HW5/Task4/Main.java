@@ -12,14 +12,10 @@ public class Main {
             System.out.print(integers.get(i) + " ");
         }
         ListIterator<Integer> listIterator = integers.listIterator();
-        System.out.print("\nСписок целых чисел после инкремента: ");
         while (listIterator.hasNext()) {
             int element = listIterator.next();
             listIterator.set(element + 1);
         }
-        for (Integer integer : integers) {
-            System.out.print(integer + " ");
-        }
-        System.out.println();
+        System.out.println("\nСписок целых чисел после инкремента: " + integers);
     }
 }
