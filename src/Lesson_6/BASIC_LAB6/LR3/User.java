@@ -4,11 +4,11 @@ public class User {
     private static String login;
     private static String password;
 
-    public static void setLogin(String login) {
+    public static void setStaticLogin(String login) {
         User.login = login;
     }
 
-    public static void setPassword(String password) {
+    public static void setStaticPassword(String password) {
         User.password = password;
     }
 
