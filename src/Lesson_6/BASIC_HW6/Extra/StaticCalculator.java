@@ -1,4 +1,4 @@
-package Lesson_6.BASIC_LAB6.Extra;
+package Lesson_6.BASIC_HW6.Extra;
 
 public class StaticCalculator {
     public static double sum(double a, double b) {
