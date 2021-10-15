@@ -11,23 +11,11 @@ public class Animal {
         this.tail = tail;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public boolean isTail() {
-        return tail;
-    }
-
     @Override
     public String toString() {
-        return "Имя: " + this.getName() +
-                ", возраст: " + this.getAge() +
-                ", хвост: " + (this.isTail() ? "Да" : "Нет");
+        return "Имя: " + name +
+                ", возраст: " + age +
+                ", хвост: " + (tail ? "Да" : "Нет");
     }
 
     @Override

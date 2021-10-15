@@ -11,18 +11,18 @@ public class Run {
         System.out.println(animal3);
         System.out.println();
 
-        System.out.println(animal1.hashCode());
-        System.out.println(animal2.hashCode());
-        System.out.println(animal3.hashCode());
+        System.out.println("animal1 hashcode: " + animal1.hashCode());
+        System.out.println("animal2 hashcode: " + animal2.hashCode());
+        System.out.println("animal3 hashcode: " + animal3.hashCode());
         System.out.println();
 
-        System.out.println(animal1.equals(animal2));
-        System.out.println(animal1.equals(animal3));
-        System.out.println(animal2.equals(animal3));
+        System.out.println("animal1 equals animal2: " + animal1.equals(animal2));
+        System.out.println("animal1 equals animal3: " + animal1.equals(animal3));
+        System.out.println("animal2 equals animal3: " + animal2.equals(animal3));
         System.out.println();
 
-        System.out.println(animal1 == animal2);
-        System.out.println(animal1 == animal3);
-        System.out.println(animal2 == animal3);
+        System.out.println("animal1 == animal2: " + (animal1 == animal2));
+        System.out.println("animal1 == animal3: " + (animal1 == animal3));
+        System.out.println("animal2 == animal3: " + (animal2 == animal3));
     }
 }
