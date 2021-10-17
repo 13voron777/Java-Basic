@@ -3,9 +3,9 @@ package Lesson_10.BASIC_HW10.Task2;
 public class Run {
     public static void main(String[] args) {
         MyList<String> myList = new MyList<>();
-        myList.add("1");
-        myList.add("2");
-        myList.add("3");
+        myList.add("Ivanov");
+        myList.add("Petrov");
+        myList.add("Sidorov");
         System.out.println("Список myList: " + myList);
         System.out.println("Размер списка: " + myList.size());
         System.out.println("Второй элемент: " + myList.get(1));

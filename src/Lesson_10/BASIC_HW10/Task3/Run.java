@@ -15,9 +15,9 @@ public class Run {
         for (int i = 0; i < 20; i++) {
             myDictionaryInt.put(i + 1, (i + 1) + "-й");
         }
-        System.out.println("Список myListInt: " + myDictionaryInt);
+        System.out.println("Список myDictionaryInt: " + myDictionaryInt);
         System.out.println("Размер списка: " + myDictionaryInt.size());
-        System.out.println("Третий элемент: " + myDictionaryInt.get(2));
+        System.out.println("Третий элемент: " + myDictionaryInt.get(3));
         System.out.println("Десятый элемент: " + myDictionaryInt.get(10));
         System.out.println("Семнадцатый элемент: " + myDictionaryInt.get(17));
     }

@@ -39,7 +39,7 @@ public class MyList<T> {
             if (i == curPos) {
                 res += arr[i];
             } else {
-                res += arr[i] + " ";
+                res += arr[i] + ", ";
             }
         }
         return "[" + res + "]";
