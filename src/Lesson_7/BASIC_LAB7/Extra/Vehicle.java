@@ -6,32 +6,18 @@ public enum Vehicle {
         public String getColor() {
             return "White";
         }
-
-        @Override
-        public String getVehicle() {
-            return "Opel";
-        }
     }, AUDI(20) {
         @Override
         public String getColor() {
             return "Black";
-        }
-
-        @Override
-        public String getVehicle() {
-            return "Audi";
         }
     }, BMW(50) {
         @Override
         public String getColor() {
             return "Aquamarine";
         }
-
-        @Override
-        public String getVehicle() {
-            return "BMW";
-        }
     };
+
     int sum;
 
     Vehicle(int sum) {
@@ -40,11 +26,10 @@ public enum Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle = " + this.getVehicle() +
+        return "Vehicle = " + this.name() +
                 "; sum = " + sum +
                 "; color = " + this.getColor();
     }
 
     public abstract String getColor();
-    public abstract String getVehicle();
 }
