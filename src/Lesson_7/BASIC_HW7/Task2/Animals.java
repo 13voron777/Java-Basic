@@ -17,16 +17,17 @@ public enum Animals {
             return "Crocodile";
         }
     };
+
     int age;
 
     Animals(int age) {
         this.age = age;
     }
 
+    public abstract String getAnimal();
+
     @Override
     public String toString() {
         return "Animal = " + this.getAnimal() + "; age = " + age;
     }
-
-    public abstract String getAnimal();
 }
