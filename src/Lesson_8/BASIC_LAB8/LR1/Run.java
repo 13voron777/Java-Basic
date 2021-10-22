@@ -2,8 +2,8 @@ package Lesson_8.BASIC_LAB8.LR1;
 
 public class Run {
     public static void main(String[] args) {
-        AnimalControlClass animal1 = new AnimalControlClass(true, true, true, true);
-        AnimalControlClass animal2 = new AnimalControlClass(false, true, true, true);
+        AnimalControlClass animal1 = new AnimalControlClass(false, true, true, true);
+        AnimalControlClass animal2 = new AnimalControlClass(true, true, true, true);
 
         try {
             animal1.walk();

@@ -24,10 +24,8 @@ public class Run {
                     calculator.div(a, b);
                     break;
                 default:
-                    throw new ArithmeticException();
+                    System.out.println("Неверный знак арифметической операции!");
             }
-        } catch (ArithmeticException e) {
-            System.out.println("Неверный знак арифметической операции!");
         } catch (Exception e) {
             System.out.println("Неверный ввод!");
         }

@@ -13,22 +13,8 @@ public class AnimalControlClass {
         this.sweater = sweater;
     }
 
-    public boolean isCollar() { // ошейник
-        return this.collar;
-    }
-
-    public boolean isLeash() { // поводок
-        return this.leash;
-    }
-    public boolean isScarf() { // шарф
-        return this.scarf;
-    }
-    public boolean isSweater() { // свитер
-        return this.sweater;
-    }
-
     public void walk() throws AnimalException {
-        if (isCollar() && isLeash() && isScarf() && isSweater()) {
+        if (collar && leash && scarf && sweater) {
             System.out.println("Всё по феншую, собака идет гулять!");
         } else {
             System.out.println("Сейчас будет исключение.");
