@@ -16,14 +16,14 @@ public class Run {
         cars[6] = new Car(4, "Mazda", "CX-5", 2008, "Black", 40000, "AIOF");
 
         while (true) {
-            System.out.println("Меню");
+            System.out.println("\nМеню");
             System.out.println("Введите 1 для вывода списка марок автомобилей из массива cars");
             System.out.println("Введите 2 для вывода списка автомобилей, которым больше n лет");
             System.out.println("Введите 3 для вывода списка автомобилей заданного года выпуска, " +
                     "цена которых больше указанной");
             System.out.println("Введите 4 для вывода списка одинаковых автомобилей в сравнении с первым" +
                     "в массиве cars");
-            System.out.println("Введите 0 для выхода из программы");
+            System.out.println("Введите 0 для выхода из программы\n");
 
             String userIn = scanner.next();
             if (userIn.equals("0")) {
