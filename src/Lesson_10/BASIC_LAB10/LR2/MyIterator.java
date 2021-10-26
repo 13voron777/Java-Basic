@@ -5,6 +5,8 @@ import java.util.NoSuchElementException;
 
 public class MyIterator<T> implements Iterator<T> {
     private T[] t;
+    int currentIndex = -1;
+    T currentElem;
 
     public MyIterator(T[] t) {
         this.t = t;
@@ -12,13 +14,14 @@ public class MyIterator<T> implements Iterator<T> {
 
     @Override
     public boolean hasNext() {
-        return false;
+        return (currentIndex + 1) < t.length;
     }
 
     @Override
     public T next() {
         if (this.hasNext()) {
-            return null;
+            currentElem = t[++currentIndex];
+            return currentElem;
         }
         throw new NoSuchElementException();
     }
